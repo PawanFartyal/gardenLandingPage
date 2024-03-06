@@ -58,7 +58,7 @@ nav{
 }
 .horizontalLine{
     display: inline-block;
-    width: 15.625rem;
+    width: 20.625rem;
     height: 2px;
     background-color:#0A5C5C;
     position: relative;
@@ -67,7 +67,7 @@ nav{
     
 }
 .navLink a:not(.Specialists){
- padding-right: 3rem; 
+ padding-right: 4rem; 
 }
 .navLink a{
     color: #1B3A27;
@@ -136,7 +136,7 @@ section{
 .about button{
     border: none;
     background-color: #0A5C5C;
-    height: 1.875rem;
+    height: 2rem;
     width: 7.8125rem;
     color: white;
     font-size: 1rem;
@@ -183,6 +183,7 @@ footer{
     padding-left: 2rem;
     position: relative;
     padding-bottom: 1rem;
+    margin-left: 1.4rem
     
 }
 .footer .para{
