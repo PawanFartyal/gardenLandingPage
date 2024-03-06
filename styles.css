@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Libre Caslon Text", serif;
+}
+body{
+    padding-top: 2.5rem;
+    background:#E5ECE4;
+}
+.green{
+    width: 215px;
+    height: 400px;
+    background-color:#0A5C5C;
+    border-bottom-right-radius:200px;
+    position:absolute;
+    z-index: -1;
+    top: 0;
+}
+nav{
+    width: 85%;
+    margin: auto;
+    height: 60px;
+}
+.imageContainer{
+    width: 40px;
+    height: 50px;
+    text-align: center;
+    float: left;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.imageContainer p{
+    position: relative;
+    color: white;
+    top: -78%;
+    left: 58%;
+    font-size: 1.5rem;
+}
+.navLink{
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);   
+}
+.navLink h2{
+    display: inline-block;
+    color: #1B3A27;
+    padding-left: .5rem;
+    font-weight: 510;
+}
+.horizontalLine{
+    display: inline-block;
+    width: 250px;
+    height: 2px;
+    background-color:#0A5C5C;
+    position: relative;
+    top: -50%;
+    transform: translate(0,-200%); 
+    
+}
+.navLink a:not(.Specialists){
+ padding-right: 3rem; 
+}
+.navLink a{
+    color: #1B3A27;
+    font-weight: 500;
+}
+.horizontalLineContainer{
+    display: inline-block;
+    height: 100%;
+}
+.Specialists{
+    padding-right: .5rem;
+}
+.hash{
+    font-weight:50;
+    font-size: 1.75rem;
+    position: relative;
+    top: 4px;
+}
+section{
+    /* padding-left: 34%; */
+    padding-top: 3rem;
+    width: 85%;
+    padding-left:25px;
+    margin: auto;
+    overflow: hidden;
+}
+.heading{
+    color: #1B3A27;
+    font-size: 1.35rem;
+    line-height: 1.1;
+}
+.detailsContainer .imageContainer{
+    float: left;
+    background-color: #CFD9DA;
+    width:240px ;
+    height: 320px;
+    padding-top: 2rem;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    position: relative;
+    /* margin-left: 1rem; */
+}
+.detailsContainer .imageContainer img{
+    width:250px ;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    left: -12%;
+    
+}
+.details{
+   /* display: inline-block; */
+   width: 100%;
+}
+.about{
+    float: left;
+    padding-left: 4.5rem;
+}
+.cardContainer{
+    float: right;
+}
+.content{
+    padding-top: 1rem;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color:#1B3A27;
+}
+.about button{
+    border: none;
+    background-color: #0A5C5C;
+    height: 30px;
+    width: 125px;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 510;
+}
+.greenCard{
+    width: 200px;
+    background-color: #0A5C5C;
+    text-align: center;
+    color: white;
+    padding: .5rem;
+
+}
+.greenCard h4{
+    font-size: 1rem;
+    font-weight: 510;
+}
+.greenCard h3{
+    font-size: 1.75rem;
+}
+.card{
+    width: 200px;
+    padding: .5rem;
+    background-color: #d6ddd6;
+    margin: .5rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color:#1B3A27;
+    font-weight:505;
+}
+.cardContainer{
+    margin-top: 2.5rem;
+}
+footer{
+    width: 85%;
+    margin: auto;
+    padding-right: 195px;
+    margin-top: 1rem;
+    position: relative;
+}
+.footer{
+    background-color: #C3CEC6;
+    padding-left: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+    
+}
+.footer .content{
+    /* float: left; */
+}
+.footer .para{
+    padding: 0.5rem 0;
+    font-size: 8px;
+}
+.images{
+    position: absolute;
+    top: 0;
+    transform: translate(0,-60%);
+    left: 30%;
+}
+.images img{
+    width: 190px;
+    padding: 0 1rem;
+
+}
+.contact{
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align:right;
+    width: 196px;
+    padding-top: 1rem;
+}
+button{
+    cursor: pointer;
+}
+.contact p{
+    font-size: 1rem;
+    padding-bottom:6px;
+    color:#0B2B1C ;
+}
+.contact p span:not(.last){
+    margin-right: .5rem;
+}
+.contact p span{
+    letter-spacing: 3px;
+}
+.bottomDesign{
+    float: right;
+    position: relative;
+}
+.wave{
+    width: 200px;
+    height: 70px;
+}
+.leaf{
+    position: absolute;
+    width: 150px;
+    bottom: 5px;
+    left: -9px;
+}
+.forma_3{
+position: absolute;
+top: -12px;
+width: 12px;
+right: 0;
+}
+.forma_5{
+    position: absolute;
+     right: 5px;
+     top: 15px;
+     width: 15px;
+}
+.forma_11{
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 11px;
+}
+.forma_8{
+    position:absolute;
+    top: 40px;
+    right: 20px;
+    width: 12px;
+}
+.forma_12{
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    width: 10px;   
+}
+.forma_4{
+    position: absolute;
+    top:0;
+    right: 15px;
+    width: 15px;
+}
+.forma_6{
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    width: 6px;
+}
+.forma_13{
+    position: absolute;
+    right: 42px;
+    width: 10px;
+    top: 8px;
+}
+.forma_10{
+    position: absolute;
+    right: 35px;
+    width: 10px;
+    top: -8px;
+}
