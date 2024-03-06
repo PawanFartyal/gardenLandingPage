@@ -108,7 +108,6 @@ section{
     border-top-left-radius: 45%;
     border-top-right-radius: 45%;
     position: relative;
-    /* margin-left: 1rem; */
 }
 .detailsContainer .imageContainer img{
     width:15.625rem;
@@ -119,7 +118,6 @@ section{
     
 }
 .details{
-   /* display: inline-block; */
    width: 100%;
 }
 .about{
@@ -186,9 +184,6 @@ footer{
     position: relative;
     padding-bottom: 1rem;
     
-}
-.footer .content{
-    /* float: left; */
 }
 .footer .para{
     padding: 0.5rem 0;
